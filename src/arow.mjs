@@ -29,3 +29,7 @@ export function useEffect(callback, dependencies) {
     )
 }
 
+// render
+export function render(callback) {
+    setInterval(callback, 10);
+}
